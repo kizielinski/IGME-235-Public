@@ -1,5 +1,5 @@
 # Bermuda Treasure: *Secret* *of* *the* *Sea* 
-## I. High Concept
+### I. High Concept
 Help the Starfish Pirates escape from Bermuda with their bountiful load of treasure!
 
 ---
