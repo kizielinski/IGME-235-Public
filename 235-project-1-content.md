@@ -27,23 +27,25 @@ The graphics style for Bermuda Treasure: *Secret* *of* *the* *Sea* will be in a 
 ---
 ### VI. Gameplay
 #### Mechanics
-The user will be exposed to two linear paths, the one they can move along, and the path the enemies take towards the player. The player will have three tools at their disposal. The main cannon of the ship, a net launcher, and gunpowder barrels placed throughout each level. The player can only take so many hits from enemies before the ship will sink, and the health of the enemy is intially unknown to the player.
+The user will be exposed to two linear paths, the one they can move along, and the path the enemies take towards the player. The player will have three tools at their disposal. The main cannon of the ship, a net launcher, gunpowder barrels placed throughout each level and the option to replenish the barrels once per level. The player can only take so many hits from enemies before the ship will sink, and the health of the enemy is intially unknown to the player.
 #### Controls
-The game will use primarily keyboard and mouse to play. With the WASD keys to move, the mouse to shoot, and the Q/E keys for using the special abiliities.
+The game will use primarily keyboard and mouse to play. With the WASD keys to move, the mouse to shoot, and the Q/E keys for using the special abilities.
 #### Teaching the Game
-The game will feature an intro tutorial level with popups containing text that teaches the player the basics on how to play.
+The game will feature an intro tutorial level with popups containing text that teach the player the basics on how to play.
 #### Player Learning
-The player needs to learn a few features crucial to their survival. First, the health of the player and enemies are not displayed, but after paying close attention the player will see how the ship sprite changes upon being damaged, and they'll notice how many cannon shots it takes to destroy enemies.
+The player needs to learn a few features crucial to their survival. First, the health of the player and enemies are not displayed, but after paying close attention the player will see how the ship sprite changes upon being damaged, and they'll notice how many cannon shots it takes to destroy enemies. Second as the waves progress, they will have to learn the strategy of when and on what enemy they should using their abilities.
 
 ---
 ### Screenshots
-![Tutorial Screenshot][screenshot1]
-
-[screenshot1]:media/screenshot1.jpg
+These two screenshots show off two sketches: the title screen of the game and an instance of the tutorial level.
 
 ![Game Title Screen Screenshot][screenshot2]
 
 [screenshot2]:media/screenshot2.jpg
+
+![Tutorial Screenshot][screenshot1]
+
+[screenshot1]:media/screenshot1.jpg
 
 ---
 ### Other
@@ -51,5 +53,5 @@ All sprites were created by the developers unless otherwise stated
 
 ---
 ### About the Developer(s)
-Kyle Zielinski/2nd Year Game Design and Development Major, Back-end Programmer 
+Kyle Zielinski-2nd Year Game Design and Development Major, Back-end Programmer 
 Skillset: Programming, Photoshop, Animation, Level Design
