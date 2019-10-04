@@ -39,7 +39,11 @@ The player needs to learn a few features crucial to their survival. First, the h
 ### Screenshots
 ![Tutorial Screenshot][screenshot1]
 
-[screenshot1]:media/screenshot1.png
+[screenshot1]:media/screenshot1.jpg
+
+![Game Title Screen Screenshot][screenshot2]
+
+[screenshot2]:media/screenshot2.jpg
 
 ---
 ### Other
