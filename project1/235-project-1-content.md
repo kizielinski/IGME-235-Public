@@ -36,7 +36,7 @@ The game will feature an intro tutorial level with popups containing text that t
 The player needs to learn a few features crucial to their survival. First, the health of the player and enemies are not displayed, but after paying close attention the player will see how the ship sprite changes upon being damaged, and they'll notice how many cannon shots it takes to destroy enemies. Second as the waves progress, they will have to learn the strategy of when and on what enemy they should using their abilities.
 
 ---
-### Screenshots
+### VII. Screenshots
 These two screenshots show off two sketches: the title screen of the game and an instance of the tutorial level.
 
 ![Game Title Screen Screenshot][screenshot2]
@@ -48,10 +48,10 @@ These two screenshots show off two sketches: the title screen of the game and an
 [screenshot1]:media/screenshot1.jpg
 
 ---
-### Other
+### VIII. Other
 All sprites were created by the developers unless otherwise stated
 
 ---
-### About the Developer(s)
+### IX. About the Developer(s)
 Kyle Zielinski-2nd Year Game Design and Development Major, Back-end Programmer 
 Skillset: Programming, Photoshop, Animation, Level Design
