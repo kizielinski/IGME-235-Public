@@ -5,9 +5,9 @@ colors{
     #574D68
     #F7F7F2
 }
-/* *{
-    border: 1px solid red;
-} */
+*{
+    font-family: 'Pirata One', cursive;
+} 
 
 body{
     margin: 0px;
@@ -30,22 +30,27 @@ h2{
     margin-top: 1vh;
 }
 
+nav{
+    border: 1px solid blue;
+    width: 40%;
+    display:flex;
+}
+
 ul{
-    border: 1px solid purple;
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 40%;
+    flex-grow: 1;
     list-style-type: none;   
     margin-top: 0;
-    margin-left: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 0;
     padding: 0;
     font-size: 1.5rem;
 }
 
 li{
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -54,13 +59,13 @@ li{
     margin-bottom: 0;
 }
 
-/* #gameTreatment{
-    
-} */
+.menu{
+    align-self: center;
+}
 
 a{
     display: flex;
-    flex-direction: row, column;
+    flex-direction: row;
     justify-content: center;
     flex-grow: 1;
     text-decoration: none;
@@ -78,6 +83,3 @@ a:active{
 
 }
 
-main{
-    
-}
