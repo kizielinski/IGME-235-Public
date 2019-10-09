@@ -1,0 +1,59 @@
+
+main{
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#workProcess{
+    width: 50vw;
+    font-size: 1rem;
+}
+.resource{
+    width: 12%;
+}
+.resourceLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: georgian;
+    width: 20vw;
+    flex-grow: 1;
+    text-decoration: none;
+}
+.resourceLink:link{
+    color:black;
+}
+.resourceLink:visited{
+    color: grey;
+}
+.resourceLink:hover{
+    background-color:#A38560;
+    color:black;
+}
+.resourceLink:active{
+    color:#574D68;
+}
+
+footer{
+    margin-top: auto;
+}
+
+#footText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+hr{
+    margin-left: -2%;
+}
+
+.mainHeader{
+    margin-top: 2%;
+}
+
+li{
+    margin
+}

@@ -15,3 +15,35 @@ div{
 hr{
     color: black;
 }
+ 
+#developer{
+    margin-bottom: 2%;
+}
+#footText{
+    font-family: 'Pirata One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+#gitHub{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color:black;
+}
+#gitHub:link{
+    color:blue;
+}
+#gitHub:visited{
+    color:purple;
+}
+#gitHub:hover{
+    background-color: rgb(113, 172, 172);
+    color:blue;
+}
+#gitHub:active{
+    color:grey;
+}
