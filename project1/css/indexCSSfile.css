@@ -14,19 +14,71 @@ h3{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;  
     grid-template-areas:
-    "intro image"
-    "info info"
+    "intro  image"
+    "story2 story3"
+    "game   game"
     "footer footer";
     grid-gap: 50px;
 }
 
-.intro{
+.story{
     grid-area: intro;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
 }
 
+.sectionHead{
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+}
+
+.sectionText{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.storyPartTwo{
+    grid-area: story2;
+    margin-left: 10%;
+    margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.storyPartThree{
+    grid-area: story3;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.gameNav{
+    grid-area: game;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.gameHead{
+    border-bottom: 2px solid black;
+    font-size: 3rem;
+}
+
+#customButton{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    background-color:#574D68;
+    width: 40%;
+}
 .mainImage{
     grid-area: image;
+    margin: auto;
+    margin-top: 10%;
 }
 

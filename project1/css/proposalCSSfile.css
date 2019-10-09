@@ -1,3 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-family: 'Pirata One', cursive;
+}
+
+h1{
+    margin-left: 2%;
+}
 div{
     margin-left: 3%;
 }

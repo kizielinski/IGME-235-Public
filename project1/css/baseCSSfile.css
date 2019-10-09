@@ -1,13 +1,14 @@
-colors{
+/* colors{
     color:
     #A38560
     #A9DEF9
     #574D68
     #F7F7F2
-}
-*{
+} */
+
+html{
     font-family: 'Pirata One', cursive;
-} 
+}
 
 body{
     margin: 0px;
@@ -20,24 +21,22 @@ header{
     justify-content: center;
     color: #F7F7F2;
     font-size: 2rem;
-    height: 10vh;
+    height: 12vh;
     background-color: #574D68;
 }
 
 h2{
     margin-right: auto;
     margin-left: 1%;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 nav{
-    border: 1px solid blue;
     width: 40%;
     display:flex;
 }
 
 ul{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
@@ -47,7 +46,7 @@ ul{
     margin-right: 0;
     margin-bottom: 0;
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 li{
