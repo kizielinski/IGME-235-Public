@@ -68,17 +68,36 @@ h3{
     font-size: 3rem;
 }
 
+/* span{
+    width: fill-available;
+    background-color:#574D68;
+    text-align: center;
+} */
 #customButton{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     font-size: 2rem;
-    background-color:#574D68;
     width: 40%;
+    background-color:#574D68;
 }
+
+#customButton:hover{
+    background-color:#A38560;
+}
+
+
 .mainImage{
     grid-area: image;
     margin: auto;
     margin-top: 10%;
+}
+
+#footText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
 }
 

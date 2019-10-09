@@ -1,10 +1,10 @@
-/* colors{
+colors{
     color:
     #A38560
     #A9DEF9
     #574D68
     #F7F7F2
-} */
+}
 
 html{
     font-family: 'Pirata One', cursive;
@@ -79,6 +79,16 @@ a:hover{
     background-color:#A38560;
 }
 a:active{
+    color:#574D68;
+}
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F7F7F2;
+    font-size: 2rem;
+    height: 12vh;
+    background-color: #574D68;
 }
 

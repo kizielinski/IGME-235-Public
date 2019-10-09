@@ -1,0 +1,62 @@
+.mainGrid{
+    display: grid;
+    height: 76vh;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 8fr 2fr;
+    grid-template-areas:
+    "asideLeft       game   asideRight"
+    "asideBottomLeft footer asideBottomRight";
+}
+
+#asideLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideLeft;
+    background-color: bisque;
+}
+
+#asideBottomLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideBottomLeft;
+    background-color: bisque;
+}
+
+#gameScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: game;
+}
+
+#asideRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideRight;
+    background-color: bisque;
+}
+
+
+#asideBottomRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideBottomRight;
+    background-color: bisque;
+}
+
+#footText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
+}
