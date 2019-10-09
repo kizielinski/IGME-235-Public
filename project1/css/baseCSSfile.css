@@ -87,8 +87,16 @@ footer{
 
 @media screen and (max-width: 1000px) {
     header{
-        font-size: 1rem;
+        font-size: 1.5rem;
         height: 20vh;
+    }
+    #navList{
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .sectionText{
+        font-size: 1px;
     }
 }
 
@@ -110,10 +118,6 @@ footer{
     }
     footer{
         font-size: 1.5rem;
-    }
-
-    img{
-        display: none;
     }
 }
 
