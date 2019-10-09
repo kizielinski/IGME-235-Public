@@ -50,6 +50,8 @@ These two screenshots show off two sketches: the title screen of the game and an
 ---
 ### VIII. Other
 All sprites were created by the developers unless otherwise stated
+Curious about how I made the game? Go to my 
+[Github](https://github.com/kizielinski) and see it for yourself!
 
 ---
 ### IX. About the Developer(s)

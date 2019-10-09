@@ -41,15 +41,17 @@ These two screenshots show off two sketches: the title screen of the game and an
 
 ![Game Title Screen Screenshot][screenshot2]
 
-[screenshot2]:media/screenshot2.jpg
+[screenshot2]:/project/media/screenshot2.jpg
 
 ![Tutorial Screenshot][screenshot1]
 
-[screenshot1]:media/screenshot1.jpg
+[screenshot1]:/project/media/screenshot1.jpg
 
 ---
 ### VIII. Other
 All sprites were created by the developers unless otherwise stated
+Curious about how I made the game? Go to my 
+[Github](https://github.com/kizielinski) and see it for yourself!
 
 ---
 ### IX. About the Developer(s)
