@@ -84,3 +84,36 @@ footer{
     background-color: #574D68;
 }
 
+
+@media screen and (max-width: 1000px) {
+    header{
+        font-size: 1rem;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        font-size: 1rem;
+        height: 20vh;
+    }
+
+    h2{
+        margin-top: 5%;
+        margin-right: 2vw;
+    }
+    #navList{
+        width: 90%;
+        font-size: 1rem;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+    }
+    footer{
+        font-size: 1.5rem;
+    }
+
+    img{
+        display: none;
+    }
+}
+
