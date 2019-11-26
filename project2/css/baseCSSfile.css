@@ -1,10 +1,14 @@
-html{
-    font-family: 'Pirata One', cursive;
+@font-face {
+    font-family: "Beleren Small Caps";
+    src: url(/fonts/Beleren\ Small\ Caps.ttf);
+  }
+  
+*{
+    font-family:"Beleren Small Caps", verdana,tahoma,sans-serif;
 }
-
 body{
     margin: 0px;
-    background-color: #A9DEF9;
+    background-color: #6e685e;
 }
 
 header{
@@ -13,7 +17,7 @@ header{
     justify-content: center;
     color: #F7F7F2;
     font-size: 2rem;
-    height: 12vh;
+    height: 10vh;
     background-color: #574D68;
 }
 
@@ -23,9 +27,8 @@ h2{
     margin-top: 2vh;
 }
 
-nav{
-    width: 40%;
-    display:flex;
+main{
+    margin-bottom: 283px;
 }
 
 #navList{
@@ -62,26 +65,26 @@ a{
     text-decoration: none;
 }
 a:link{
-    color:#F7F7F2;
+    color:rgb(71, 41, 121);
 }
 a:visited{
-    color:#F7F7F2;
+    color:rgb(0, 0, 0);
 }
 a:hover{
-    background-color:#A38560;
+    background-color:rgb(0, 0, 0);
 }
 a:active{
-    color:#574D68;
+    color:rgb(79, 51, 128);
 }
 
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     color: #F7F7F2;
     font-size: 2rem;
-    height: 12vh;
     background-color: #574D68;
+    margin-top: 10px;
 }
 
 

@@ -6,7 +6,7 @@ main{
 
 #workProcess{
     width: 50vw;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 .resource{
     width: 12%;
@@ -24,14 +24,14 @@ main{
     color:black;
 }
 .resourceLink:visited{
-    color: grey;
+    color: rgb(75, 26, 80);
 }
 .resourceLink:hover{
     background-color:#A38560;
     color:black;
 }
 .resourceLink:active{
-    color:#574D68;
+    color:rgb(89, 54, 150);
 }
 
 footer{

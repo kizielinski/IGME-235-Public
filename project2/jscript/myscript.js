@@ -1,11 +1,11 @@
 
     // 1
-    window.onload = (e) => {document.querySelector("#search").onclick = SearchButtonClicked
-                            document.querySelector("#searchTerm").onkeypress = SearchBar
-                            document.querySelector("#change").onclick = IterateSearchType
-                            document.querySelector("#singleSearch").onclick = SearchByColorOnly;};
-
-
+    window.onload = (e) => {document.querySelector("#search").onclick = SearchButtonClicked;
+                            document.querySelector("#searchTerm").onkeypress = SearchBar;
+                            document.querySelector("#change").onclick = IterateSearchType;
+                            document.querySelector("#singleSearch").onclick = SearchByColorOnly;
+                            // Retrieve
+                            document.querySelector("#searchTerm").value = localStorage.getItem("searchVal");};
     // 2
     let space = "c%3A";
     let displayTerm = "";
@@ -127,6 +127,8 @@
             currentSearch += searchVal;
             displayTerm = searchVal;
             document.querySelector("#status").innerHTML = "<b>Searching for all '" + displayTerm + "'</b>";
+            // Store
+            localStorage.setItem("searchVal", searchVal);
             url += currentSearch;
             getData(url);
         }
