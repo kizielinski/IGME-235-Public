@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Magic Card Finder</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<!-- <style>
+		@import url(mystyle.css);
+	</style> -->
+    <script src="jscript/myscript.js"></script>
+</head> 
+<body>
+<header>
+	<h1>Magic Card Finder!</h1>
+</header>
+<main>
+	<div class="widgets">
+
+		<div id="singleColor">
+	
+			<p>Single Card Search</p>
+			<button type="button" id="singleSearch" class="buttonStyle">Search</button>		
+			Color?
+			<select id="color">
+					<option value="blue">blue</option>
+					<option value="white" selected>white</option>
+					<option value="green">green</option>
+					<option value="red">red</option>
+					<option value="black">black</option>	
+			</select>
+		
+			Mana Cost?
+			<select id="cmc">
+				<option value="Any">Any</option>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>h
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">10</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+			</select>
+		</div>
+	
+		<div id="searchBarWidgets">
+	
+			<div id="status">Ready to Search!</div>
+	
+			<div id="searchBar">	
+				<button type="button" id="change" class="buttonStyle">Search Type</button>		
+				<input id="searchTerm" type="text" size="20" maxlength="20" autofocus placeholder="Searching is: funny, hybrid, permanent etc."/>
+				<button type="button" id="search" class="buttonStyle">Scry for Cards!</button>
+			</div>
+	
+			<div id="colorCheckbox">
+				<div class="manaColor">
+					<input class="color" type="checkbox" name="Blue" value="U"><img src="images/symbols/blue.png" alt="Blue Mana">Blue
+					</div>	
+				<div class="manaColor">
+					<input class="color" type="checkbox" name="Green" value="G"><img src="images/symbols/green.png" alt="Green Mana">Green
+					</div>
+				<div class="manaColor">
+					<input class="color" type="checkbox" name="Red" value="R"><img src="images/symbols/red.png" alt="Red Mana">Red<br>
+					</div>
+				<div class="manaColor">
+					<input class="color" type="checkbox" name="Black" value="B"><img src="images/symbols/black.png" alt="Black Mana">Black<br>
+					</div>
+				<div class="manaColor">
+					<input class="color" type="checkbox" name="White" value="W"><img src="images/symbols/white.png" alt="White Mana">White<br>
+					</div>
+				<div class="manaColor">
+					<input id="multi" type="checkbox" name="multi" value="M"><img src="images/symbols/multi.png" alt="MultiColor Mana">MultiColor<br>
+					</div>		
+			</div>	
+		</div>
+		
+	</div>
+</main>
+
+<h2>Results</h2>
+<div id="content">
+
+</div>
+ 
+<footer>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+html{
+    font-family: 'Pirata One', cursive;
+}
+
+body{
+    margin: 0px;
+    background-color: #A9DEF9;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F7F7F2;
+    font-size: 2rem;
+    height: 12vh;
+    background-color: #574D68;
+}
+
+h2{
+    margin-right: auto;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+nav{
+    width: 40%;
+    display:flex;
+}
+
+#navList{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    list-style-type: none;   
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+.navLink{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu{
+    align-self: center;
+}
+
+a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    text-decoration: none;
+}
+a:link{
+    color:#F7F7F2;
+}
+a:visited{
+    color:#F7F7F2;
+}
+a:hover{
+    background-color:#A38560;
+}
+a:active{
+    color:#574D68;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #F7F7F2;
+    font-size: 2rem;
+    height: 12vh;
+    background-color: #574D68;
+}
+
+
+@media screen and (max-width: 1000px) {
+    header{
+        font-size: 1.5rem;
+        height: 20vh;
+    }
+    #navList{
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .sectionText{
+        font-size: 1px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        font-size: 1rem;
+        height: 20vh;
+    }
+
+    h2{
+        margin-top: 5%;
+        margin-right: 2vw;
+    }
+    #navList{
+        width: 90%;
+        font-size: 1rem;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+    }
+    footer{
+        font-size: 1.5rem;
+    }
+}
+
