@@ -469,12 +469,13 @@ function gameLoop(){
                     break;
                 case"s":
                     if(rectsIntersect(e,c)){
-                        if(e.health <= 0)
+                        if(e.health <= 1)
                         {
                             fireballSound.play();
                             createExplosion(e.x,e.y, 80, 80);
                             gameScene.removeChild(e);
                             e.isAlive = false;
+                            console.log("increasing score by 10!");
                             increaseScoreBy(10);
                         }
                         else{
@@ -486,7 +487,7 @@ function gameLoop(){
                     break;
                 case"o":
                     if(rectsIntersect(e,c)){
-                        if(e.health <= 0)
+                        if(e.health <= 1)
                         {
                             fireballSound.play();
                             createExplosion(e.x,e.y, 80, 80);
@@ -632,6 +633,18 @@ function createBarrel(numBarrel){
 }
 
 function loadLevel(){
+
+    enemies.forEach(e=>gameScene.removeChild(e)); //simple arrow function w no return
+    enemies = [];
+    piranhas = [];
+    sharks = [];
+    octopi = [];
+    
+    barrels.forEach(b=>gameScene.removeChild(b))
+    barrels = [];
+    cannonBalls.forEach(c=>gameScene.removeChild(c)); 
+    cannonBalls = [];
+
     createPiranha(levelNum * 2);
     createShark(levelNum-1 * 1);
     if(levelNum >= 3)
