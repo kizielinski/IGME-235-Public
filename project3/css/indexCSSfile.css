@@ -1,0 +1,123 @@
+/* 
+*{
+    border: 1px solid red;
+} */
+h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem; 
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;  
+    grid-template-areas:
+    "intro  image"
+    "story2 story3"
+    "game   game"
+    "footer footer";
+    grid-gap: 50px;
+}
+
+.story{
+    grid-area: intro;
+    margin-left: 10%;
+    margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.sectionHead{
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+}
+
+.sectionText{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.storyPartTwo{
+    grid-area: story2;
+    margin-left: 10%;
+    margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.storyPartThree{
+    grid-area: story3;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 0;
+    margin-top: 12%;
+    padding: 0;
+}
+
+.gameNav{
+    grid-area: game;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.gameHead{
+    border-bottom: 2px solid black;
+    font-size: 3rem;
+}
+
+/* span{
+    width: fill-available;
+    background-color:#574D68;
+    text-align: center;
+} */
+#customButton{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    width: 40%;
+    background-color:#574D68;
+}
+
+#customButton:hover{
+    background-color:#A38560;
+}
+
+
+.mainImage{
+    grid-area: image;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#footText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 480px) {   
+    .sectionHead{
+        font-size: 1rem;
+    }
+    .sectionText{
+        font-size: 1rem;
+    }
+    .gameHead{
+        font-size: 1.5rem;
+    }
+    #customButton{
+        width: 20vw;
+    }
+    .menu{
+        font-size: 1rem;   
+    }
+    img{
+        display: none;
+    }
+}

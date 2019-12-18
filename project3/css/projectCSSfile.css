@@ -1,0 +1,72 @@
+.mainGrid{
+    display: grid;
+    height: 76vh;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 8fr 2fr;
+    grid-template-areas:
+    "asideLeft       game   asideRight"
+    "asideBottomLeft main asideBottomRight"
+    "footer          footer        footer "       ;
+    background-color: #000000;
+}
+
+#asideLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-area: asideLeft;
+    background-color: bisque;
+    font-size: 1.4rem;
+}
+
+#asideBottomLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideBottomLeft;
+    background-color: bisque;
+}
+
+#gameScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: game;
+    background-color: #000000;
+}
+
+#asideRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-area: asideRight;
+    background-color: bisque;
+    font-size: 1.4rem;
+}
+
+
+#asideBottomRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    grid-area: asideBottomRight;
+    background-color: bisque;
+}
+
+#footText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 1%;
+}
